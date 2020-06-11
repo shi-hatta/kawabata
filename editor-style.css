@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* @font-face {
+font-family: ;
+src: url('../fonts/.woff') format('woff'),
+url('../fonts/.eot') format('eot');
+font-weight: normal;
+font-style: normal;
+} */
+
+/* フォントだけこのクラスで変更するようです。 */
+body.mceContentBody {
+        font-size: 100%;
+		font-size: 14px;
+	    font-family: "harenosora", "メイリオ", "ＭＳ Ｐゴシック", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Osaka, sans-serif !important;
+}
+.editor-area img {
+        max-width: 100%;
+        height: auto;
+		margin: 30px auto;
+}
+.editor-area a {
+	    text-decoration: none;
+	    color: #000;
+}
+.editor-area a:hover {
+	    text-decoration: underline;
+	    color: #000;
+}
+.editor-area a:focus {
+	    outline: none;
+}
+.editor-area p {
+        line-height: 2;
+		margin: 0;
+}
+.editor-area ul {
+		border: 1px solid #ccc;
+		padding: 30px;
+}
+.editor-area li {
+	    line-height: 2;
+	    list-style-type: none;
+}
+.editor-area h3 {
+        font-size: 26px;
+        line-height: 3;
+}
+.editor-area h4 {
+        font-size: 20px;
+        line-height: 3;
+}
+.editor-area {
+		width: 1000px;
+		margin: 0 auto;
+}

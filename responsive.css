@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/*---------------------------------------------------------------------------------
+
+	Theme Name: 
+	Description: 
+	Author: 
+	
+-----------------------------------------------------------------------------------
+
+	0.	Document
+	1.	Font
+	2.	Frame
+	3.	Heading
+	4.	Header
+	5.	Menu Navigation
+	6.	Button
+	7.	Top Page
+	8.	Archive Page
+	9.	Single Page
+	10.	Blog
+	11.	Sidebar
+	12.	Footer
+	13.	Craftsman
+
+/* -------------------------------------------------------------------------------- */
+/*	0. Document
+/* -------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 575.98px) {}
+@media screen and (min-width: 576px) and (max-width: 767.98px){}
+@media screen and (min-width: 768px) and (max-width: 991.98px){}
+@media screen and (min-width: 992px) and (max-width: 1199.98px){}
+@media screen and (min-width:1200px){}
+
+/* -------------------------------------------------------------------------------- */
+/*	1. Font
+/* -------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------- */
+/*	2. Frame
+/* -------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 575.98px) {
+	.container {
+		width: 320px;
+	}
+	 .flex-xs-wrap {
+		 -ms-flex-wrap: wrap !important;
+		 flex-wrap: wrap !important;
+	}
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+	.container {
+		width: 576px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+	.container {
+		width: 768px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+	.container {
+		width: 992px;
+	}
+}
+@media screen and (min-width:1200px){
+	.container {
+		width: 1200px;
+	}
+}
+
+/* -------------------------------------------------------------------------------- */
+/*	3. Heading
+/* -------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------- */
+/*	4. Header
+/* -------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------- */
+/*	5. Menu Navigation
+/* -------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 575.98px) {
+    .navbar-brand {
+        width: 180px;
+    }
+    .nav-item {
+        border: none;
+    }
+    .dropdown-menu {
+        background-color: transparent !important;
+    }
+    .yamm-content {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .navbar-brand {
+        width: 230px;
+    }
+    .nav-item {
+        border: none;
+    }
+    .dropdown-menu {
+        background-color: transparent !important;
+    }
+    .yamm-content {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .logo-img {
+        width: 250px;
+    }
+    .nav-link,.dropdown-item {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px){}
+@media screen and (min-width:1200px){}
+
+/* -------------------------------------------------------------------------------- */
+/*	6. Button
+/* -------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------- */
+/*	7. Top Page
+/* -------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 575.98px) {
+	.container.newsBox {
+		margin-top: 250px;
+	}
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+	.container.newsBox {
+		margin-top: 250px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+	.container.newsBox {
+		margin-top: 150px;
+	}
+}
+
+/* -------------------------------------------------------------------------------- */
+/*	8. Archive Page
+/* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 575.98px) {
+    .naruhodo-toha {
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .naruhodo-toha:after {
+    width: 50px;
+}
+    .nrhd-box-content {
+        font-size: 16px;
+    }
+    .nrhd-box-text2,.nrhd-box-text3,.nrhd-box-text4 {
+        top: auto;
+        right: auto;
+        bottom: 5%;
+        left: 0;
+    }
+    .real-tag {
+        text-align: left !important;
+    }
+    .bunjyou,.uridashi,.hanbai {
+        margin-bottom: .5em;
+    }
+    .news-box-img  {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px){}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .nrhd-time {
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    .nrhd-time {
+        margin-top: 50px;
+    }
+}
+@media screen and (min-width:1200px){}
+
+/* -------------------------------------------------------------------------------- */
+/*	9. Single Page
+/* -------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------- */
+/*	10. Blog
+/* -------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------- */
+/*	11. Sidebar
+/* -------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------- */
+/*	12. Footer
+/* -------------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------------- */
+/*	13. Craftsman
+/* -------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 575.98px) {
+    .bb-text {
+        position: static;
+        display: block;
+        padding: inherit;
+    }
+    .photobox02,.photobox10,.photobox07,.photobox18,.photobox17,.photobox16 {
+        margin-top: 24px;
+    }
+    .bg-photo {
+        height: 200px;
+        background-size: 105%;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .bb-text {
+        position: static;
+        display: block;
+        padding: inherit;
+    }
+    .photobox02,.photobox10,.photobox07,.photobox18,.photobox17,.photobox16 {
+        margin-top: 24px;
+    }
+    .bg-photo {
+        height: 250px;
+        background-size: 100%;
+        background-position: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .photobox17,.photobox18 {
+        margin-top: 24px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    .bb-text {
+        padding: 10px 20px 10px 50px;
+    }
+    .bg-mask h5 {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:1200px){}

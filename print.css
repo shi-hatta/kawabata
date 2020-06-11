@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#header,
+nav,
+#breadcrumb,
+#sidebar,
+#footer {
+	display: none !important;
+}
+.section_header {
+    display: none;
+}
+.navbar {
+    display: none;
+}
+.breadcrumb {
+    display: none;
+}
+#sidebar {
+    display: none;
+}
+#container {
+    width: 100%;
+}
+#footer {
+    display: none;
+}
+#contact_form {
+    display:  none;
+}
+.a11y-responsive {
+    display:none;
+}
