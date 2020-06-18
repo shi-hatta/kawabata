@@ -359,3 +359,11 @@ add_filter( 'wpcf7_validate_email*', 'wpcf7_main_validation_filter', 11, 2 );
 @ini_set( 'max_execution_time', '100' );
 @ini_set( 'post_max_size', '50M');
 @ini_set( 'upload_max_size' , '30M' );
+
+// カスタムメニュー設定
+function add_menus() {
+    register_nav_menus(array(
+        'global_nav' => 'グローバルナビゲーション'
+    ));
+}
+add_action('after_setup_theme', 'add_menus');

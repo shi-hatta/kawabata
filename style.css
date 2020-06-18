@@ -310,10 +310,11 @@ img {
 /*	6.	Menu Navigation
 /* -------------------------------------------------------------------------------- */
 .logo,nav {
-    z-index: 999;
+    z-index: 1000;
 }
-.bg-dark,.dropdown-menu {
-    background-color: rgba( 0, 0, 0, .5 ) !important;
+
+.navbar {
+    background-color: rgba( 0, 0, 0, .4);
 }
 .dropdown-menu {
     margin: 0;
@@ -339,6 +340,104 @@ img {
 }
 .dropdown-toggle::after{
     border: none !important;
+}
+
+/* ハンバーガーメニュー */
+.ham {
+  position: relative;
+  top: 0;
+  left: 87%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 2px solid #989898;
+  border-radius: 4px;
+}
+.ham_line {
+  position: absolute;
+  left: 24%;
+  width: 20px;
+  height: 2px;
+  background-color: #989898;
+  transition: all 0.3s;
+}
+.ham_line1 {
+  top: 20%;
+}
+
+.ham_line2 {
+  top: 45%;
+}
+
+.ham_line3 {
+  top: 69%;
+}
+
+/*クリック後の処理*/
+.clicked .ham_line1 {
+  transform: rotate(45deg);
+  top: 20px;
+}
+.clicked .ham_line2 {
+  width: 0;
+}
+.clicked .ham_line3 {
+  transform: rotate(-45deg);
+  top: 20px;
+}
+
+
+/* カスタムメニュー */
+.global_menu {
+    font-size: 0;
+    width: 100%;
+}
+.global_menu .menu-item {
+    display: inline-block;
+}
+.global_menu .menu-item {
+    width: 20%;
+}
+
+.global_menu > .menu-item:first-of-type {
+    font-weight: bold;
+    color: #000;
+    background-color: rgba( 255, 117, 10, 0.8);
+}
+.menu-item {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.25em;
+    font-size: 18px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: rgba( 0, 0, 0, .4);
+}
+.menu-item a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+.menu-item a:hover {
+    color: #eee;
+    letter-spacing: 0.5em;
+    transition: 0.8s;
+}
+.sub-menu {
+    margin-top: 1em;
+    display: none;
+    position: absolute;
+}
+.sub-menu .menu-item {
+    background-color: rgba(51, 51, 51, .8);
+}
+.menu-item-has-children:hover .sub-menu,
+.menu-item-has-children:active .sub-menu {
+    display: block;
+}
+.sub-menu .menu-item {
+    display: block;
+    width: 20vw;
 }
 /* -------------------------------------------------------------------------------- */
 /*	7.	Button
