@@ -1175,6 +1175,11 @@ dd.con:after{
   content: "";
   clear: both;
 }
+.wpcf7-input-style {
+	height: 34px;
+	width: 250px;
+}
+
 @media screen and (max-width: 320px) {
   dt.con{
     width: 100%;
