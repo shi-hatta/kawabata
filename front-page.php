@@ -10,7 +10,7 @@ Template Name: 川端工務店フロントページ
 
 <img src="<?php echo get_template_directory_uri(); ?>/images/top-img2.jpg" alt="トップ画像" width="100%"></div>
 
-<div class="container newsBox">
+<div class="container">
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 py-2">
             <h6 class="text-white text-center news">News<br><span class="h5">お知らせ</span></h6>

@@ -459,9 +459,6 @@ img {
     background-size: cover;
     background-position: center;
 }
-.container.newsBox {
-    margin-top: -150px;
-}
 .key_top {
     z-index: 999;
     display: block;
