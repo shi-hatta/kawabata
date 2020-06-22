@@ -1175,6 +1175,7 @@ dd.con:after{
 .wpcf7-input-style {
 	height: 34px;
 	width: 250px;
+	border: 2px solid #ccc!important;
 }
 
 @media screen and (max-width: 320px) {

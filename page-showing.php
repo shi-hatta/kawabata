@@ -1,7 +1,7 @@
 <?php
 
 /*
-Template Name: 来場予約
+Template Name: 内覧会予約
 */
 ?>
 
