@@ -27,10 +27,14 @@
 /* -------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 575.98px) {}
-@media screen and (min-width: 576px) and (max-width: 767.98px){}
-@media screen and (min-width: 768px) and (max-width: 991.98px){}
-@media screen and (min-width: 992px) and (max-width: 1199.98px){}
-@media screen and (min-width:1200px){}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media screen and (min-width:1200px) {}
 
 /* -------------------------------------------------------------------------------- */
 /*	1. Font
@@ -42,33 +46,38 @@
 /* -------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 575.98px) {
-	.container {
-		width: 320px;
-	}
-	 .flex-xs-wrap {
-		 -ms-flex-wrap: wrap !important;
-		 flex-wrap: wrap !important;
-	}
+    .container {
+        width: 320px;
+    }
+
+    .flex-xs-wrap {
+        -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    }
 }
-@media screen and (min-width: 576px) and (max-width: 767.98px){
-	.container {
-		width: 576px;
-	}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        width: 576px;
+    }
 }
-@media screen and (min-width: 768px) and (max-width: 991.98px){
-	.container {
-		width: 768px;
-	}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        width: 768px;
+    }
 }
-@media screen and (min-width: 992px) and (max-width: 1199.98px){
-	.container {
-		width: 992px;
-	}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+        width: 992px;
+    }
 }
-@media screen and (min-width:1200px){
-	.container {
-		width: 1200px;
-	}
+
+@media screen and (min-width:1200px) {
+    .container {
+        width: 1200px;
+    }
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -89,65 +98,147 @@
     .navbar-brand {
         width: 180px;
     }
+
     .nav-item {
         border: none;
     }
+
     .dropdown-menu {
         background-color: transparent !important;
     }
+
     .yamm-content {
         text-align: center;
     }
-}
-@media screen and (min-width: 576px) and (max-width: 767.98px){
-    .navbar-brand {
-        width: 230px;
-    }
-    .nav-item {
-        border: none;
-    }
-    .dropdown-menu {
-        background-color: transparent !important;
-    }
-    .yamm-content {
-        text-align: center;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 991.98px){
-    .logo-img {
-        width: 250px;
-    }
-    .nav-link,.dropdown-item {
-        font-size: 12px;
+
+    .ham {
+        float: left;
+        margin-top: 0.75rem;
     }
     
     .menu_wrapper {
-        height: 1rem;
+        height: 0;
+        margin-top: 10px;
     }
+
     .global_menu .menu-item {
         display: block;
-        width: 50vw;
+        width: 100%;
         left: -100%;
         position: relative;
         transition: all 0.8s
     }
+
     .clicked .global_menu .menu-item {
         left: 0;
     }
+
     .sub-menu {
         position: relative;
     }
+
     .sub-menu .menu-item {
-        width: 50vw;
+        width: 100%;
     }
+
     .footer_menu {
         display: none;
     }
 }
-@media screen and (min-width: 992px) and (max-width: 1199.98px){
 
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-brand {
+        width: 230px;
+    }
+
+    .nav-item {
+        border: none;
+    }
+
+    .dropdown-menu {
+        background-color: transparent !important;
+    }
+
+    .yamm-content {
+        text-align: center;
+    }
+    
+    .ham {
+        margin-top: 0.75rem;
+        float: left;
+    }
+
+    .menu_wrapper {
+        margin-top: 10px;
+        height: 0;
+    }
+    .global_menu .menu-item {
+        display: block;
+        width: 100%;
+        left: -100%;
+        position: relative;
+        transition: all 0.8s
+    }
+
+    .clicked .global_menu .menu-item {
+        left: 0;
+    }
+
+    .sub-menu {
+        position: relative;
+    }
+
+    .sub-menu .menu-item {
+        width: 100%;
+    }
+
+    .footer_menu {
+        display: none;
+    }
 }
-@media screen and (min-width:1200px){}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .logo-img {
+        width: 250px;
+    }
+
+    .nav-link,
+    .dropdown-item {
+        font-size: 12px;
+    }
+
+    .menu_wrapper {
+        height: 1rem;
+    }
+
+    .global_menu .menu-item {
+        display: block;
+        width: 100%;
+        left: -100%;
+        position: relative;
+        transition: all 0.8s
+    }
+
+    .clicked .global_menu .menu-item {
+        left: 0;
+    }
+
+    .sub-menu {
+        position: relative;
+    }
+
+    .sub-menu .menu-item {
+        width: 100%;
+    }
+
+    .footer_menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media screen and (min-width:1200px) {}
 
 /* -------------------------------------------------------------------------------- */
 /*	6. Button
@@ -167,40 +258,54 @@
         margin-top: 40px;
         margin-bottom: 50px;
     }
+
     .naruhodo-toha:after {
-    width: 50px;
-}
+        width: 50px;
+    }
+
     .nrhd-box-content {
         font-size: 16px;
     }
-    .nrhd-box-text2,.nrhd-box-text3,.nrhd-box-text4 {
+
+    .nrhd-box-text2,
+    .nrhd-box-text3,
+    .nrhd-box-text4 {
         top: auto;
         right: auto;
         bottom: 5%;
         left: 0;
     }
+
     .real-tag {
         text-align: left !important;
     }
-    .bunjyou,.uridashi,.hanbai {
+
+    .bunjyou,
+    .uridashi,
+    .hanbai {
         margin-bottom: .5em;
     }
-    .news-box-img  {
+
+    .news-box-img {
         margin-bottom: 10px;
     }
 }
-@media screen and (min-width: 576px) and (max-width: 767.98px){}
-@media screen and (min-width: 768px) and (max-width: 991.98px){
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
     .nrhd-time {
         margin-top: 10px;
     }
 }
-@media screen and (min-width: 992px) and (max-width: 1199.98px){
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
     .nrhd-time {
         margin-top: 50px;
     }
 }
-@media screen and (min-width:1200px){}
+
+@media screen and (min-width:1200px) {}
 
 /* -------------------------------------------------------------------------------- */
 /*	9. Single Page
@@ -232,41 +337,62 @@
         display: block;
         padding: inherit;
     }
-    .photobox02,.photobox10,.photobox07,.photobox18,.photobox17,.photobox16 {
+
+    .photobox02,
+    .photobox10,
+    .photobox07,
+    .photobox18,
+    .photobox17,
+    .photobox16 {
         margin-top: 24px;
     }
+
     .bg-photo {
         height: 200px;
         background-size: 105%;
         background-position: center;
     }
 }
-@media screen and (min-width: 576px) and (max-width: 767.98px){
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
     .bb-text {
         position: static;
         display: block;
         padding: inherit;
     }
-    .photobox02,.photobox10,.photobox07,.photobox18,.photobox17,.photobox16 {
+
+    .photobox02,
+    .photobox10,
+    .photobox07,
+    .photobox18,
+    .photobox17,
+    .photobox16 {
         margin-top: 24px;
     }
+
     .bg-photo {
         height: 250px;
         background-size: 100%;
         background-position: center;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 991.98px){
-    .photobox17,.photobox18 {
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    .photobox17,
+    .photobox18 {
         margin-top: 24px;
     }
 }
-@media screen and (min-width: 992px) and (max-width: 1199.98px){
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
     .bb-text {
         padding: 10px 20px 10px 50px;
     }
+
     .bg-mask h5 {
         font-size: 18px;
     }
 }
-@media screen and (min-width:1200px){}
+
+@media screen and (min-width:1200px) {}
