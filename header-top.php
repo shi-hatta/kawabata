@@ -44,6 +44,7 @@
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 logo">
             <p class="font-weight-bold text-right h5 mt-2 top-text"><i class="fas fa-phone-square"></i>&nbsp;0778-22-6577</p>
+            <p class="font-weight-bold text-right h5 mt-2"><a class="top-text" href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせはこちら</a></p>
         </div>
 	</div>
 </div>
