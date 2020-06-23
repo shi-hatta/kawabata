@@ -363,7 +363,8 @@ add_filter( 'wpcf7_validate_email*', 'wpcf7_main_validation_filter', 11, 2 );
 // カスタムメニュー設定
 function add_menus() {
     register_nav_menus(array(
-        'global_nav' => 'グローバルナビゲーション'
+        'global_nav' => 'グローバルナビゲーション',
+        'footer_nav' => 'フッターのナビゲーション'
     ));
 }
 add_action('after_setup_theme', 'add_menus');

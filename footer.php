@@ -4,7 +4,27 @@
 
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 my-5 py-3 navbar_footer" style="font-size: 0.85rem;">
 
-    <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark d-none d-md-block">
+    <nav class="sticky-top">
+        <div id="menu_wrapper" class="menu_wrapper">
+        <?php
+          $args = array(
+            'theme_location' => 'footer_nav',
+            'container' => 'div',
+            'container_class' => 'footer_nav',
+            'container_id' => 'footer_nav',
+            'menu_class' => 'footer_menu',
+            'menu_id' => 'footer_menu',
+            'before' => '', // 各メニューテキストの前に表示される要素
+            'after' => '', // 各メニューテキストの後ろに表示される要素
+            'link_before' => '', // <a>タグの前に付ける要素
+            'link_after' => '', // <a>タグの後ろに付ける要素
+          );
+          wp_nav_menu($args); ?>
+          </div>
+    </nav>
+
+<!--
+       <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark d-none d-md-block">
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav w-100 nav-justified">
                 <li class="nav-item">
@@ -65,6 +85,7 @@
             </ul>
         </div>
     </nav>
+-->
 
 	</div>
 
@@ -125,6 +146,10 @@ $(function($){
         });
     });
 });
+
+</script>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<script>
 const ham = document.getElementById('ham');
 const menu_wrapper =
 document.getElementById('menu_wrapper');
@@ -133,7 +158,6 @@ ham.addEventListener('click', function() {
     menu_wrapper.classList.toggle('clicked');
 });
 </script>
-<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
 <?php wp_footer(); ?>
 </body>

@@ -8,7 +8,7 @@ Template Name: 川端工務店フロントページ
 
 <?php get_header('top'); ?>
 
-<img src="<?php echo get_template_directory_uri(); ?>/images/top-img2.jpg" alt="トップ画像" width="100%"></div>
+<img src="<?php echo get_template_directory_uri(); ?>/images/top-img2.jpg" alt="トップ画像"></div>
 
 <div class="container newsBox">
     <div class="row">

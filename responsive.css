@@ -120,29 +120,28 @@
     .nav-link,.dropdown-item {
         font-size: 12px;
     }
-    .global_menu {
-        
+    
+    .menu_wrapper {
+        height: 1rem;
     }
     .global_menu .menu-item {
         display: block;
         width: 50vw;
         left: -100%;
         position: relative;
-        transition: all 0.3s
+        transition: all 0.8s
     }
     .clicked .global_menu .menu-item {
         left: 0;
-    }
-    .menu-item-has-children:hover,
-    .menu-item-has-children:active {
-        padding-bottom: 0;
-        transition: 0.8s;
     }
     .sub-menu {
         position: relative;
     }
     .sub-menu .menu-item {
         width: 50vw;
+    }
+    .footer_menu {
+        display: none;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1199.98px){
