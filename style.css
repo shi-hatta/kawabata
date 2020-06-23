@@ -618,10 +618,6 @@ nav {
     background-position: center;
 }
 
-.container.newsBox {
-    margin-top: -150px;
-}
-
 .key_top {
     z-index: 999;
     display: block;
@@ -1568,6 +1564,12 @@ dd.con:after {
     display: block;
     content: "";
     clear: both;
+}
+
+.wpcf7-input-style {
+	height: 34px;
+	width: 250px;
+	border: 2px solid #ccc!important;
 }
 
 @media screen and (max-width: 320px) {

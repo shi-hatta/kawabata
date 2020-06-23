@@ -90,7 +90,23 @@ return $wareki;
 //　改行の時に自動的にPタグが挿入されるのを防ぐ
 // remove_filter('the_content', 'wpautop');
 // remove_filter( 'the_excerpt', 'wpautop' );
+// 投稿エディタ機能オートフォーマット関連の無効化
+add_action('init', function() {
+	remove_filter('the_title', 'wptexturize');
+	remove_filter('the_content', 'wptexturize');
+	remove_filter('the_excerpt', 'wptexturize');
+	remove_filter('the_title', 'wpautop');
+	remove_filter('the_content', 'wpautop');
+	remove_filter('the_excerpt', 'wpautop');
+	remove_filter('the_editor_content', 'wp_richedit_pre');
+});
 
+// 投稿エディタ機能オートフォーマット関連の無効化 TinyMCE
+add_filter('tiny_mce_before_init', function($init) {
+	$init['wpautop'] = false;
+	$init['apply_source_formatting'] = ture;
+	return $init;
+});
 
 //Jetpack Page Speed Insightモバイル向け対策
 function dequeue_devicepx() {
