@@ -92,7 +92,8 @@
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 center txtWhite">
 	<img src="<?php echo get_template_directory_uri(); ?>/images/logo_w.png" width="400px" alt="株式会社　川端工務店"><br />
 		<div class="h5">
-		〒915-0857 <br class="d-xl-none d-lg-none d-md-none d-sm-inline">福井県越前市四郎丸町31-2-9
+		〒915-0857 <br class="d-xl-none d-lg-none d-md-none d-sm-inline">福井県越前市四郎丸町31-2-9<br>
+		<i class="fas fa-phone-square"></i>&nbsp;0778-22-6577
 		</div>
 	</div>
 	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">

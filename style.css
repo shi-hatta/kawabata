@@ -527,6 +527,7 @@ nav {
 
 
 /* カスタムメニュー */
+
 .global_menu,
 .footer_menu {
     font-size: 0;
@@ -724,8 +725,8 @@ nav {
 .bg-test {
     position: relative;
     overflow: hidden;
-    width: auto;
-    height: 200px;
+    max-width: 100%;
+    min-height: 200px;
     padding: 0;
 }
 

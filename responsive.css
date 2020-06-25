@@ -126,15 +126,17 @@
         width: 100%;
         left: -100%;
         position: relative;
-        transition: all 0.8s
+        transition: all 0.8s;
     }
-
+    
     .clicked .global_menu .menu-item {
         left: 0;
     }
 
     .sub-menu {
         position: relative;
+        max-height: 200px;
+        overflow-y: scroll;
     }
 
     .sub-menu .menu-item {
