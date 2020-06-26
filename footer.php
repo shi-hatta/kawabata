@@ -159,6 +159,21 @@ ham.addEventListener('click', function() {
     menu_wrapper.classList.toggle('clicked');
 });
 </script>
+    
+<script>
+$(function(){
+var startPos = 0,winScrollTop = 0;
+$(window).on('scroll',function(){
+    winScrollTop = $(this).scrollTop();
+    if (winScrollTop >= startPos) {
+        $('#navbar').addClass('hide');
+    } else {
+        $('#navbar').removeClass('hide');
+    }
+    startPos = winScrollTop;
+});
+});
+</script>    
 
 <?php wp_footer(); ?>
 </body>
