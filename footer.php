@@ -173,7 +173,7 @@ $(window).on('scroll',function(){
     startPos = winScrollTop;
 });
 });
-</script>    
+</script>
 
 <?php wp_footer(); ?>
 </body>

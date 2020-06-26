@@ -34,8 +34,9 @@
 </head>
 <body <?php body_class (); ?>>
 <?php wp_head(); ?>
-    
-<div class="container d-none d-md-block logo sticky-top" id="navbar">
+
+<div class="sticky-top bg-white"  id="navbar">    
+<div class="container d-none d-md-block logo">
 	<div class="row d-flex align-items-center">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-2">
             <a href="<?php echo home_url() ?>">
@@ -49,7 +50,7 @@
 	</div>
 </div>
 
-    <nav class="sticky-top">
+    <nav>
       <a href="<?php echo home_url(); ?>" class="navbar-brand d-inline-block d-md-none align-items-center"><img class="navbar-brand" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="株式会社　川端工務店"></a>
        <div id="ham" class="ham d-lg-none">
            <span class="ham_line ham_line1"></span>
@@ -74,4 +75,5 @@
           </div>
         
     </nav>
+    </div>    
     
